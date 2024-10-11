@@ -7,7 +7,27 @@
 
 ## Descripción
 
-Realicé segmentación de clientes, aplicando aprendizaje no supervizado con K-Means
+Análisis exploratorio de datos (EDA): examiné el conjunto de datos para comprender la distribución de las variables, identificar valores faltantes y detectar valores atípicos.
+
+Limpieza de datos: procesé previamente los datos mediante el manejo de valores faltantes, la codificación de variables categóricas y la escala/normalización de variables numéricas con StandardScaler.
+
+Visualización de datos: utilicé varias técnicas de visualización (histogramas, diagramas de caja, diagramas de dispersión, diagramas de violín y mapas de calor) para obtener información sobre las relaciones entre las variables e identificar patrones.
+
+Agrupamiento de K-Means: apliqué el agrupamiento de K-Means para segmentar a los clientes en grupos distintos en función de sus características. Evalué la cantidad óptima de grupos utilizando la puntuación de silueta.
+
+Descripción de los Clusters: analicé las características de cada grupo, incluidos el valor monetario, la frecuencia y la actualidad para obtener una comprensión más profunda de los segmentos de clientes.
+
+## Description
+
+Exploratory Data Analysis (EDA): I examined the dataset to understand the distribution of variables, identify missing values, and detect outliers.
+
+Data Cleaning: I preprocessed the data by handling missing values, encoding categorical variables, and scaling/normalizing numerical variables using StandardScaler.
+
+Data Visualization: I used various visualization techniques: histograms, box plots, scatter plots, violin plots and heatmap) to gain insights into the relationships between variables and identify patterns.
+
+K-Means Clustering: I applied K-Means clustering to segment customers into distinct groups based on their characteristics. I evaluated the optimal number of clusters using the silhouette score.
+
+Cluster Description: I analyzed each cluster's characteristics, including MonetaryValue, Frequency, and Recency to gain a deeper understanding of the customer segments
 
 
 
